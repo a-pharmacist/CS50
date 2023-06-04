@@ -10,3 +10,10 @@ Projects and problems solved during CS50 Harvard courses.
   * Asking the user for a final population;
   * Calculating the number of years required;
   * Printing the result on the screen;
+
+### Mario file
+- Inspired by Mario games, this challenge's goal was to ask the user for an integer number that would result in a pyramid's height. 
+- The project scope was divided into three parts:
+  * Creating a formula to calculate the pyramid's height;
+  * Creating a formula to calculate the number of spaces " " before each line;
+  * Creating a formula to calculate the number of hashes on each line.
