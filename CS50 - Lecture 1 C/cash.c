@@ -48,32 +48,20 @@ int get_cents(void)
 
 int calculate_quarters(int cents)
 {
-    if (cents - 25 >= 0)
-    {
-        cents = cents / 25;
-        return cents;
-    }
-    return 0;
+    cents = cents / 25;
+    return cents;
 }
 
 int calculate_dimes(int cents)
 {
-    if (cents - 10 >= 0)
-    {
-        cents = cents / 10;
-        return cents;
-    }
-    return 0;
+    cents = cents / 10;
+    return cents;
 }
 
 int calculate_nickels(int cents)
 {
-    if (cents - 5 >= 0)
-    {
-        cents = cents / 5;
-        return cents;
-    }
-    return 0;
+    cents = cents / 5;
+    return cents;
 }
 
 int calculate_pennies(int cents)
