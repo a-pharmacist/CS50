@@ -25,3 +25,8 @@ Projects and problems solved during CS50 Harvard courses.
   * If the input is 0, the output must be 0;
   * If the input is 4, the output must be 4 (i.e., four pennies);
   * If the input is 24, the output must be 6 (i.e., two dimes and four pennies).
+
+## Lecture 2 - Arrays
+
+### Hours file
+- This project aims to calculate, according to the user preferences (sum or average), how much time was spent over the weeks during the CS50 course.
