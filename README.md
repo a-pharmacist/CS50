@@ -3,6 +3,12 @@ Projects and problems solved during CS50 Harvard courses.
 
 ## Lecture 1 - C
 
+### Half file
+- Supposing the user is going to a restaurant with another person, this program aims to calculate how much each one should pay, including bill, tax, and tip values.
+
+### Prime file
+- This project aims to show the user (based on a chosen range) what Prime numbers exist.
+
 ### Population file
 - This project was a lab activity whose goal was to preview how long it would take (in years) for a llama population chosen by the user to achieve the final population, also chosen by the user. We assumed that 1/3 of llamas of the start population are born annually, and 1/4 die.
 - The project scope was divided into four parts:
