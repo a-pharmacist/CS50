@@ -30,3 +30,6 @@ Projects and problems solved during CS50 Harvard courses.
 
 ### Hours file
 - This project aims to calculate, according to the user preferences (sum or average), how much time was spent over the weeks during the CS50 course.
+
+### No-vowels file
+- This project aims to change every vowel - except 'u' - to numbers in a string, which is an array of characters.
