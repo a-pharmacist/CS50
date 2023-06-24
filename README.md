@@ -55,3 +55,12 @@ Projects and problems solved during CS50 Harvard courses.
   * At least one lowercase letter;
   * At least one uppercase letter;
   * At least one symbol.
+
+ ### Lab 2
+
+ #### Scrabble file
+ - This project is a game in which two players must choose a word. Each character in these words has several points according to how difficult it is to find it in a word (i.e., the 'a' value's is 1, and the 'z' value's is 10). 
+- In the end, it's printed on the screen which player is the winner (or if they have a tie) according to the sum of the points of each symbol.
+- Rules:
+  * The letters 'A' and 'a' have the same number of points;
+  * Non-alphabetical characters count as 0 points.
