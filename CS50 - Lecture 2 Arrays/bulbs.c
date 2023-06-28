@@ -31,13 +31,10 @@ void print_bulb(string message)
             r = n[i] % 2;
             n[i] = (float) n[i] / 2;
 
+            // Verifies if the bulb must be on or off
             if (r == 1)
             {
                 bit[BITS_IN_BYTE - j - 1] = 1;
-            }
-            else if (r == 0)
-            {
-                bit[BITS_IN_BYTE - j - 1] = 0;
             }
             j++;
         }
