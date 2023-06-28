@@ -64,3 +64,10 @@ Projects and problems solved during CS50 Harvard courses.
 - Rules:
   * The letters 'A' and 'a' have the same number of points;
   * Non-alphabetical characters count as 0 points.
+
+### Problem set 2
+
+#### Bulbs file
+- This project aims to get a message from the user, like "Hi!". After, it transforms each character used into an integer and converts the decimal number into binary.
+- Then, the result is printed on the screen in bulbs emoji format. The number 1 is represented as an on light bulb, and the number 0 as an off one.
+  * Each character must be represented in a different line.
