@@ -67,6 +67,17 @@ Projects and problems solved during CS50 Harvard courses.
 
 ### Problem set 2
 
+#### Readability file
+- This project aims to create an algorithm that calculates a text grade reading level and prints the result on the screen.
+- This way, it gets a string from the user, and using the formula: 0.0588 * L - 0.296 * S - 15.8, where:
+  * L is the average number of letters per 100 words in the text, and
+  * S is the average number of sentences per 100 words in the text.
+
+- There are three possible results:
+  * Before Grade 1;
+  * Grade X (where x is a number between 2 and 15);
+  * Grade 16+.
+
 #### Bulbs file
 - This project aims to get a message from the user, like "Hi!". After, it transforms each character used into an integer and converts the decimal number into binary.
 - Then, the result is printed on the screen in bulbs emoji format. The number 1 is represented as an on light bulb, and the number 0 as an off one.
