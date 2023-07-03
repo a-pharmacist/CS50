@@ -69,7 +69,7 @@ Projects and problems solved during CS50 Harvard courses.
 
 #### Readability file
 - This project aims to create an algorithm that calculates a text grade reading level and prints the result on the screen.
-- This way, it gets a string from the user, and using the formula: 0.0588 * L - 0.296 * S - 15.8, where:
+- This way, it gets a string from the user, and uses the formula index = 0.0588 * L - 0.296 * S - 15.8, where:
   * L is the average number of letters per 100 words in the text, and
   * S is the average number of sentences per 100 words in the text.
 
