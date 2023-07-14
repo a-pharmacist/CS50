@@ -77,8 +77,15 @@ Projects and problems solved during CS50 Harvard courses.
   * Before Grade 1;
   * Grade X (where x is a number between 2 and 15);
   * Grade 16+.
-
+ 
 #### Bulbs file
 - This project aims to get a message from the user, like "Hi!". After, it transforms each character used into an integer and converts the decimal number into binary.
 - Then, the result is printed on the screen in bulbs emoji format. The number 1 is represented as an on light bulb, and the number 0 as an off one.
   * Each character must be represented in a different line.
+ 
+ ## Lecture 3 - Algorithms
+
+ ### Practice Problems
+
+ #### Atoi file
+ - This project aims to create an algorithm that converts strings into an integer using a recursive function.
