@@ -89,3 +89,7 @@ Projects and problems solved during CS50 Harvard courses.
 
  #### Atoi file
  - This project aims to create an algorithm that converts strings into an integer using a recursive function.
+
+#### Temps file
+- This project aims to create an algorithm that sorts an array of cities' temperatures in descending order.
+- The final result is printed out on the screen.
