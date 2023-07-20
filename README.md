@@ -93,3 +93,6 @@ Projects and problems solved during CS50 Harvard courses.
 #### Temps file
 - This project aims to create an algorithm that sorts an array of cities' temperatures in descending order.
 - The final result is printed out on the screen.
+
+#### Max file
+- This program asks the user for the number of integers he wants to compare and which they are. Then, it prints on the screen the biggest one.
