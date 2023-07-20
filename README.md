@@ -56,9 +56,9 @@ Projects and problems solved during CS50 Harvard courses.
   * At least one uppercase letter;
   * At least one symbol.
 
- ### Lab 2
+### Lab 2
 
- #### Scrabble file
+#### Scrabble file
  - This project is a game in which two players must choose a word. Each character in these words has several points according to how difficult it is to find it in a word (i.e., the 'a' value's is 1, and the 'z' value's is 10). 
 - In the end, it's printed on the screen which player is the winner (or if they have a tie) according to the sum of the points of each symbol.
 - Rules:
@@ -83,11 +83,11 @@ Projects and problems solved during CS50 Harvard courses.
 - Then, the result is printed on the screen in bulbs emoji format. The number 1 is represented as an on light bulb, and the number 0 as an off one.
   * Each character must be represented in a different line.
  
- ## Lecture 3 - Algorithms
+## Lecture 3 - Algorithms
 
- ### Practice Problems
+### Practice Problems
 
- #### Atoi file
+#### Atoi file
  - This project aims to create an algorithm that converts strings into an integer using a recursive function.
 
 #### Temps file
@@ -96,3 +96,8 @@ Projects and problems solved during CS50 Harvard courses.
 
 #### Max file
 - This program asks the user for the number of integers he wants to compare and which they are. Then, it prints on the screen the biggest one.
+
+#### Snackbar file
+- At this project, a menu of snacks is printed on the screen. Then, the user is asked to choose some foods or drinks, like Fries or soda. In the end, the foods chosen's costs are summed and printed on the screen as the final cost.
+  * For this purpose, it used a linear search algorithm.
+  * Items that are not on the menu can't be summed.
