@@ -101,3 +101,13 @@ Projects and problems solved during CS50 Harvard courses.
 - At this project, a menu of snacks is printed on the screen. Then, the user is asked to choose some foods or drinks, like Fries or soda. In the end, the foods chosen's costs are summed and printed on the screen as the final cost.
   * For this purpose, it used a linear search algorithm.
   * Items that are not on the menu can't be summed.
+
+### Problem set 3
+
+#### Runoff file
+- This program aims to calculate the winner of a runoff election, in which voters can choose candidates in their preference order.
+- For starting the program, it is necessary to use candidates' names as argument values. Then, the user must define the number of voters. Each voter puts each candidate in a rank of preference.
+- The program reads each vote and organizes the results in a matrix of integer values (preferences[i][j], in which i is the voter index, and j is the candidate index).
+- A candidate receives a vote when he is the voter's first option. If the candidate has already been eliminated, the voter's second option is chosen instead, and so on.
+- The candidate with the lower number of votes is eliminated in every loop.
+- The program ends when there is a winner or when it is tied, and the result is printed on the user's screen.
