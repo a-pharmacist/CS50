@@ -104,6 +104,11 @@ Projects and problems solved during CS50 Harvard courses.
 
 ### Problem set 3
 
+#### Plurality file
+- This program aims to calculate the winner of a plurality election, in which voters can choose only one candidate.
+- For starting the program, it is necessary to use candidates' names as argument values. Then, the user must define the number of voters. Each voter chooses one candidate.
+- Finally, the winner's (or winners', if it is tied) name is printed on the screen.
+
 #### Runoff file
 - This program aims to calculate the winner of a runoff election, in which voters can choose candidates in their preference order.
 - For starting the program, it is necessary to use candidates' names as argument values. Then, the user must define the number of voters. Each voter puts each candidate in a rank of preference.
