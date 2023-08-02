@@ -116,3 +116,13 @@ Projects and problems solved during CS50 Harvard courses.
 - A candidate receives a vote when he is the voter's first option. If the candidate has already been eliminated, the voter's second option is chosen instead, and so on.
 - The candidate with the lower number of votes is eliminated in every loop.
 - The program ends when there is a winner or when it is tied, and the result is printed on the user's screen.
+
+## Lecture 4 - Memory
+
+### Practice Problems
+
+#### License and License_matrix files
+
+- It's a simple program for practice using functions malloc and free from C. It reads eight sequences of seven characters from a .txt file and prints it on the screen.
+  * license.c file does it using malloc;
+  * license_matrix.c file does it using a matrix.
