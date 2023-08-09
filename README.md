@@ -126,3 +126,15 @@ Projects and problems solved during CS50 Harvard courses.
 - It's a simple program for practice using functions malloc and free from C. It reads eight sequences of seven characters from a .txt file and prints it on the screen.
   * license.c file does it using malloc;
   * license_matrix.c file does it using a matrix.
+
+### Problem set 4
+
+#### Filter folder
+
+- This program aims to apply different filters on filterless images .bmp file format.
+- To run the program, the user must use teh following structure in command line interface:
+./filter -g INFILE.bmp OUTFILE.bmp
+  * The single character represents the filter that should be applied (g for grayscale, s for sepia, r for reflect, and b for blur);
+  * INFILE.bmp represents the input file's name in bmp format;
+  * OUTFILE.bmp represents the output file's name in bmp format.
+
