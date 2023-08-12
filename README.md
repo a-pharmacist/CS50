@@ -138,3 +138,11 @@ Projects and problems solved during CS50 Harvard courses.
   * INFILE.bmp represents the input file's name in bmp format;
   * OUTFILE.bmp represents the output file's name in bmp format.
 
+#### Recover file
+- This program aims to create an algorithm that recovers 50 JPEG files that were accidentally deleted from a camera memory card. 
+- The algorithm walks through all memory card extensions looking for the JPEG file's signature (i.e., headers starting with 0xff 0xd8 0xff, and either 0xe0, 0xe1, 0xe2, 0xe3, 0xe4, 0xe5, 0xe6, 0xe7, 0xe8, 0xe9, 0xea, 0xeb, 0xec, 0xed, 0xee, or 0xef respectively.
+- Once a JPEG file has been found, the program:
+  * Names another JPEG file following the model ###.jpg, where ### is a three-digit decimal number, starting with 000 for the first image and counting up;
+  * Opens the JPEG file that was named, and starts to write into it.
+- The program stops writing into the previous JPEG file when another JPEG is found (i.e., its first four bytes). Then, the previous file is closed, and the other one is opened (by the same process).
+- This process continues until the end of the memory card.
