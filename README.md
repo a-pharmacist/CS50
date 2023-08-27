@@ -122,7 +122,6 @@ Projects and problems solved during CS50 Harvard courses.
 ### Practice Problems
 
 #### License and License_matrix files
-
 - It's a simple program for practice using functions malloc and free from C. It reads eight sequences of seven characters from a .txt file and prints it on the screen.
   * license.c file does it using malloc;
   * license_matrix.c file does it using a matrix.
@@ -130,7 +129,6 @@ Projects and problems solved during CS50 Harvard courses.
 ### Problem set 4
 
 #### Filter folder
-
 - This program aims to apply different filters on filterless images .bmp file format.
 - To run the program, the user must use teh following structure in command line interface:
 ./filter -g INFILE.bmp OUTFILE.bmp
@@ -146,3 +144,10 @@ Projects and problems solved during CS50 Harvard courses.
   * Opens the JPEG file that was named, and starts to write into it.
 - The program stops writing into the previous JPEG file when another JPEG is found (i.e., its first four bytes). Then, the previous file is closed, and the other one is opened (by the same process).
 - This process continues until the end of the memory card.
+
+## Lecture 5 - Data Structures
+
+### Practice Problems
+
+#### Trie file
+- This program aims to search for a name in a trie data structure. If the name was found, it returns "Found!", if doesn't, it returns "Not found".
