@@ -151,3 +151,9 @@ Projects and problems solved during CS50 Harvard courses.
 
 #### Trie file
 - This program aims to search for a name in a trie data structure. If the name was found, it returns "Found!", if doesn't, it returns "Not found".
+
+### Lab 5
+- This program aims to simulate the inheritance of blood types for each member of a family using a tree data structure.
+- Each person has two parents and two inherited alleles, each one from each of the parents.
+- For creating new members of the family or freeing memory after using malloc, recursive functions are used.
+- At the end, the family tree result is printed on the screen.
