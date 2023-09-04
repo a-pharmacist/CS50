@@ -157,3 +157,8 @@ Projects and problems solved during CS50 Harvard courses.
 - Each person has two parents and two inherited alleles, each one from each of the parents.
 - For creating new members of the family or freeing memory after using malloc, recursive functions are used.
 - At the end, the family tree result is printed on the screen.
+
+### Speller files
+- This program aims to load a dictionary (143,091 words!) inside the computer's memory. All words are organized in a data structure called hash table. The words are organized in the different hash table's buckets, and for choosing in which bucket a word should stay in, a hash function is used.
+- After that, the program checks if all the words in a given text are well-spelled, passing by the hash table structure and comparing each word to the dictionary's words - according to its bucket. Words containing digits and non-alphabetical characters (except apostrophes) are not considered. Then, all misspelled words and the runtime execution of each function are printed on the screen.
+- Lastly, the allocated memory, using malloc, must be freed.
